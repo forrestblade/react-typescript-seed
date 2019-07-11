@@ -2,7 +2,7 @@
   "name": "forrestblade",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.tsx",
   "scripts": {
     "start": "webpack-dev-server --open --config ./config/webpack.config.js --mode development",
     "build": "webpack --config ./config/webpack.config.js",
@@ -85,7 +85,7 @@
     "transform": {
       "^.+\\.tsx?$": "ts-jest"
     },
-    "preset": "ts-jest",
+    "preset": "jest-puppeteer",
     "testEnvironment": "jsdom"
   },
   "standard": {

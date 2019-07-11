@@ -77,7 +77,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       template: './public/index.html',
-      title: 'React Seed',
+      title: 'You clicked 0 times',
       favicon: './public/favicon.png'
     })
   ],

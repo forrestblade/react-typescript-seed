@@ -17,7 +17,7 @@ describe('Given `App`', () => {
   function renderComponent (props = requiredProps()) {
     return mount(<App {...props} />)
   }
-
+  
   beforeEach(() => {
     sandbox = sinon.createSandbox()
     component = renderComponent()
